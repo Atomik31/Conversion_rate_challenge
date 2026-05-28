@@ -1,0 +1,23 @@
+V1.1 = "source" = 1, random_state=42, params = {
+    'C': [50],
+    'solver': ['liblinear'],
+    'penalty': ['l2']  # liblinear supporte les deux
+}
+
+V1.2 = "source" = 0, random_state=42, params = {
+    'C': [50],
+    'solver': ['liblinear'],
+    'penalty': ['l2']  # liblinear supporte les deux
+}
+
+V1.3 = "source" = 0, random_state=0, params = {
+    'C': [5],
+    'solver': ['liblinear'],
+    'penalty': ['l2']  # liblinear supporte les deux
+}
+
+V1.4 = "source" = 0, random_state=0, params = {
+    'C': [0.1],
+    'solver': ['liblinear'],
+    'penalty': ['l2']  # liblinear supporte les deux
+}
