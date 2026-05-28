@@ -1,3 +1,5 @@
+![Conversion Rate Challenge](crc_logo.png)
+
 # Conversion Rate Challenge
 
 Projet réalisé dans le cadre du bloc 3 de la certification CDSD (Jedha).
