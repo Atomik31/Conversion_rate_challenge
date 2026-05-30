@@ -24,7 +24,7 @@ Classement des performances des modèles soumis par les étudiants durant la for
 
 - EDA : analyse des distributions, taux de conversion par pays/source/type d'utilisateur
 - Modélisation : plusieurs modèles testés (Régression Logistique, Random Forest, XGBoost), optimisation du F1-score
-- Soumissions multiples au leaderboard (12 versions)
+- Soumissions multiples au leaderboard (15 versions)
 - Analyse des paramètres du meilleur modèle pour identifier des leviers d'action concrets
 
 ---
@@ -34,15 +34,17 @@ Classement des performances des modèles soumis par les étudiants durant la for
 ```
 Conversion_rate_challenge/
 ├── data/
-│   ├── raw/               # Données brutes train/test (Jedha)
-│   └── predictions/       # Fichiers de soumission au leaderboard (12 versions)
+│   ├── raw/
+│   │   ├── conversion_data_train.csv
+│   │   └── conversion_data_test.csv
+│   └── predictions/             # 15 fichiers de soumission au leaderboard
 ├── docs/
 │   └── 02-Conversion_rate_challenge.ipynb   # Énoncé du projet
 ├── notebooks/
-│   ├── conversion_rate.ipynb   # EDA
-│   ├── model.ipynb             # Modélisation
-│   ├── model_f1.ipynb          # Optimisation F1
-│   └── model_propre.ipynb      # Version finale
+│   ├── conversion_rate.ipynb    # EDA
+│   ├── model.ipynb              # Modélisation
+│   ├── model_f1.ipynb           # Optimisation F1
+│   └── model_propre.ipynb       # Version finale
 └── README.md
 ```
 
