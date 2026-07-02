@@ -52,8 +52,8 @@ Conversion_rate_challenge/
 
 ## Stack
 
-- Python — Pandas, Scikit-learn, Matplotlib, Seaborn
+- Python - Pandas, Scikit-learn, Matplotlib, Seaborn
 
 ---
 
-Julien CHARLIER — [(Github : Atomik31)](https://github.com/Atomik31)
+Julien CHARLIER - [(Github : Atomik31)](https://github.com/Atomik31)
